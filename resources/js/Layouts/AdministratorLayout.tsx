@@ -87,7 +87,7 @@ export default function AdministratorLayout({user, children}: PropsWithChildren<
         </SidebarMenu>
       </Sidebar>
       <div className="flex flex-col">
-        <header className="flex h-14 items-center gap-4 border-b bg-muted/40 px-4 lg:h-[60px] lg:px-6 fixed w-full r-0">
+        <header className="flex h-14 items-center gap-4 border-b bg-muted/40 px-4 lg:h-[60px] fixed lg:static lg:px-6 w-full">
           <SidebarResponsive
             title="Jupiter IT Solutions"
           >
@@ -144,7 +144,7 @@ export default function AdministratorLayout({user, children}: PropsWithChildren<
             </DropdownMenuContent>
           </DropdownMenu>
         </header>
-        <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6 lg:mt-[5%] md:mt-[7%] mt-[15%]">
+        <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6 mt-[12%] lg:mt-0">
           {children}
         </main>
       </div>

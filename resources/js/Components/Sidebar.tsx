@@ -10,8 +10,8 @@ type SidebarProps = {
 
 const Sidebar = ({children}: SidebarProps) => {
   return (
-      <div className="hidden border-r bg-muted/40 md:block lg:max-w-[100%] relative">
-        <div className="flex lg:w-[19.4%] h-full max-h-screen flex-col gap-2 fixed">
+      <div className="hidden border-r bg-muted/40 md:block lg:max-w-[100%] md:max-w-[100%] relative">
+        <div className="flex xl:w-[19.4%] lg:w-[27.2%] md:w-[27.8%] h-full max-h-screen flex-col gap-2 fixed">
           {children}
         </div>
       </div>
